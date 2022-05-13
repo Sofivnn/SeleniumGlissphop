@@ -111,6 +111,10 @@ def search_bar_article(product):
     skip_cookie()
 
 
+    
+# --------------------------#
+#      Ajouter article      #
+# --------------------------#
 def add_article():
     """
     It opens the website, clicks on the first product, and adds it to the cart
@@ -123,7 +127,12 @@ def add_article():
     element = wd.find_element(By.XPATH, '//button[ @data-ng-click="addShippingCategoriesProduct()" ]')
     wd.execute_script("arguments[0].click();", element)
 
+    
+   
 
+# --------------------------#
+#        Voir article       #
+# --------------------------#
 def show_cart():
     """
     The function show_cart() opens the cart page and clicks on the "My cart" button
@@ -140,6 +149,10 @@ def show_cart():
         wd.execute_script("arguments[0].click();", cart)
 
 
+
+# --------------------------#
+#        Delete article     #
+# --------------------------#
 def delete_article():
     """
     It clicks on the "delete" button of the first article in the cart, then checks if the cart is empty
@@ -157,6 +170,9 @@ def delete_article():
         print("vide")
 
 
+# --------------------------#
+#        Modify article     #
+# --------------------------#
 def modify():
     """
     This function is used to modify the user's information
