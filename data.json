@@ -4,7 +4,13 @@
       "id" :1,
       "mail" : "msofiane2024@hotmail.fr",
       "password" : "Soso93380##",
-      "ConfirmPass" : "Soso93380##"
+      "ConfirmPass" : "Soso93380##",
+      "gender" : "M",
+      "Name" : "Sofiane",
+      "Lastname" : "Mbarki",
+      "phone" : "0123456789",
+      "birth" : "21/04/2001",
+      "pseudo" : "Soso"
       }
   ]
 }
